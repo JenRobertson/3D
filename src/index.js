@@ -23,12 +23,11 @@ function addBasicCube(){
 let importedModel;
 
 function addImportedModel(model){
-    return loader.load( gltfPath, function ( loadedObject ) {
+    loader.load( gltfPath, function ( loadedObject ) {
         scene.add( loadedObject.scene );
         importedModel = loadedObject.scene;
     }, undefined, function ( error ) {
         console.error( error );
-        return 'wanker'
     } );
 }
 

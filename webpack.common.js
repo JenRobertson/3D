@@ -25,7 +25,7 @@ module.exports = {
                 ]
             },
             {
-                test: /\.(png|jpg|mp3|wav|bin|gltf)$/,
+                test: /\.(png|jpg|mp3|wav|bin)$/,
                 use: [
                     'file-loader'
                 ]
@@ -45,6 +45,14 @@ module.exports = {
                     presets: ['@babel/preset-env']
                   }
                 }
+              },
+              {
+                test: /\.(gltf)$/,
+                use: [
+                  {
+                    loader: "gltf-webpack-loader"
+                  }
+                ]
               }
         ]
     }
