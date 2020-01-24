@@ -1,0 +1,419 @@
+{
+    "asset": {
+        "generator": "FBX2glTF v0.9.7",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "buffers": [
+        {
+            "byteLength": 290204,
+            "uri": "buffer.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 35772,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 41604,
+            "byteOffset": 35772,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 41604,
+            "byteOffset": 77376,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 27736,
+            "byteOffset": 118980,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 18432,
+            "byteOffset": 146716,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 19992,
+            "byteOffset": 165148,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 19992,
+            "byteOffset": 185140,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 13328,
+            "byteOffset": 205132,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 18432,
+            "byteOffset": 218460,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 19992,
+            "byteOffset": 236892,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 19992,
+            "byteOffset": 256884,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 13328,
+            "byteOffset": 276876,
+            "target": 34962
+        }
+    ],
+    "scenes": [
+        {
+            "name": "Root Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 17886,
+            "bufferView": 0,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 3467,
+            "bufferView": 1,
+            "byteOffset": 0,
+            "min": [
+                -0.0864941403269768,
+                -0.00818886049091816,
+                0.0847510322928429
+            ],
+            "max": [
+                -0.0517057441174984,
+                0.0246795974671841,
+                0.126369819045067
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 3467,
+            "bufferView": 2,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 3467,
+            "bufferView": 3,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 9216,
+            "bufferView": 4,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 1666,
+            "bufferView": 5,
+            "byteOffset": 0,
+            "min": [
+                -1.03536295890808,
+                -1.03433465957642,
+                -1.03536295890808
+            ],
+            "max": [
+                1.03536295890808,
+                1.03433465957642,
+                1.03536295890808
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 1666,
+            "bufferView": 6,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 1666,
+            "bufferView": 7,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 9216,
+            "bufferView": 8,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 1666,
+            "bufferView": 9,
+            "byteOffset": 0,
+            "min": [
+                -1.03263366222382,
+                -1.01984369754791,
+                -1.00822651386261
+            ],
+            "max": [
+                1.05812764167786,
+                1.07072269916534,
+                1.05136752128601
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 1666,
+            "bufferView": 10,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 1666,
+            "bufferView": 11,
+            "byteOffset": 0
+        }
+    ],
+    "images": [
+        {
+            "name": "lambert1_Flattened_Diffuse.tif",
+            "uri": "lambert1_Flattened_Diffuse.tif"
+        },
+        {
+            "name": "Default Material_Flattened_Diffuse.tif",
+            "uri": "Default Material_Flattened_Diffuse.tif"
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "textures": [
+        {
+            "name": "lambert1_Flattened_Diffuse",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "Default Material_Flattened_Diffuse",
+            "sampler": 0,
+            "source": 1
+        }
+    ],
+    "materials": [
+        {
+            "name": "lambert1",
+            "alphaMode": "OPAQUE",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Phong",
+                    "isTruePBR": false
+                }
+            },
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0,
+                    "texCoord": 0
+                },
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 0.400000005960464,
+                "roughnessFactor": 0.518824636936188
+            }
+        },
+        {
+            "name": "Default Material",
+            "alphaMode": "OPAQUE",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Phong",
+                    "isTruePBR": false
+                }
+            },
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 1,
+                    "texCoord": 0
+                },
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 0.400000005960464,
+                "roughnessFactor": 0.518824636936188
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "mookiebody",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 2,
+                        "POSITION": 1,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 0
+                }
+            ]
+        },
+        {
+            "name": "eye r",
+            "primitives": [
+                {
+                    "material": 1,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 6,
+                        "POSITION": 5,
+                        "TEXCOORD_0": 7
+                    },
+                    "indices": 4
+                }
+            ]
+        },
+        {
+            "name": "eye l",
+            "primitives": [
+                {
+                    "material": 1,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 10,
+                        "POSITION": 9,
+                        "TEXCOORD_0": 11
+                    },
+                    "indices": 8
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "name": "mookiebody",
+            "translation": [
+                11.506142616272,
+                -1.37297344207764,
+                -17.5773410797119
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                167.514495849609,
+                167.514495849609,
+                167.514495849609
+            ],
+            "mesh": 0
+        },
+        {
+            "name": "eye r",
+            "translation": [
+                1.86294960975647,
+                1.48013424873352,
+                1.10001742839813
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                0.148936241865158,
+                0.148936241865158,
+                0.148936241865158
+            ],
+            "mesh": 1
+        },
+        {
+            "name": "eye l",
+            "translation": [
+                1.86294960975647,
+                1.48013412952423,
+                -0.453977048397064
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                0.148936241865158,
+                0.148936241865158,
+                0.148936241865158
+            ],
+            "mesh": 2
+        }
+    ]
+}

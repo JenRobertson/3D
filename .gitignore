@@ -1,0 +1,12 @@
+coverage/
+dist/
+node_modules/
+src/assets/css/*.css
+styleguide/
+.npm-debug
+package-lock.json
+yarn-error.log
+.DS_Store
+copyAssets
+generated
+raw films
